@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Extui\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-16 18:25+0100\n"
+"PO-Revision-Date: 2011-09-19 15:56+0200\n"
+"Last-Translator: Eric Brison <eric.brison@anakeen.com>\n"
+"Language-Team: english-anakeen <distrib@anakeen.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+msgid "(.*)\\"
+msgstr ""
+
+msgid "Ext ui api"
+msgstr ""
+
+msgid "Ext user interface api"
+msgstr ""
+
+msgid "eui:Abstract display"
+msgstr "Abstract"
+
+msgid "eui:Cancel deletion"
+msgstr "Cancel deletion"
+
+msgid "eui:Cancel locking"
+msgstr "Cancel locking"
+
+msgid "eui:Cancel remove"
+msgstr "Cancel remove"
+
+msgid "eui:Create a search"
+msgstr "Create a search"
+
+msgid "eui:Delete"
+msgstr "Delete"
+
+msgid "eui:Display"
+msgstr "Display"
+
+msgid "eui:Document Selection"
+msgstr "Document selection"
+
+msgid "eui:Duplicate document"
+msgstr "Duplicate document"
+
+msgid "eui:Edit document"
+msgstr "Edit document"
+
+msgid "eui:Export all documents"
+msgstr "Export all documents"
+
+msgid "eui:Export selected documents"
+msgstr "Export selected documents"
+
+msgid "eui:Grid display"
+msgstr "Grid"
+
+msgid "eui:Historic"
+msgstr "Historic"
+
+msgid "eui:Icon display"
+msgstr "Icon"
+
+msgid "eui:Lock"
+msgstr "Lock"
+
+msgid "eui:Lock selected documents"
+msgstr "Lock selected documents"
+
+msgid "eui:Lock selection"
+msgstr "Lock selection"
+
+msgid "eui:Remove from folder"
+msgstr "Remove from folder"
+
+msgid "eui:Rss Link"
+msgstr "RSS Link"
+
+msgid "eui:Selection"
+msgstr "Selection"
+
+msgid "eui:Send Mail"
+msgstr "Send Mail"
+
+msgid "eui:Sure delete ?"
+msgstr "Are you sure you want to delete ?"
+
+msgid "eui:Sure lock selected document ?"
+msgstr "Are you sure you want to lock selected document ?"
+
+msgid "eui:Sure remove from folder ?"
+msgstr "Are you sure you want to remove from folder ?"
+
+msgid "eui:Tools"
+msgstr "Tools"
+
+msgid "eui:Tree display"
+msgstr "Tree"
+
+msgid "eui:Unlock"
+msgstr "Unlock"
+
+msgid "eui:View Document"
+msgstr "View Document"
+
+msgid "eui:View Properties"
+msgstr "View properties"
+
+msgid "eui:View print version"
+msgstr "View print version"
+
+msgid "eui:itemlistmenu tag not found"
+msgstr "Itemlistmenu tag not found"
+
+msgid "eui:no id in itemlistmenu"
+msgstr "No id in itemlistmenu"
+
+msgid "eui:no itemmenu tags found"
+msgstr "No itemmenu tags found"
+
+msgid "xml menu parsing"
+msgstr ""
+
+#, c-format
+msgid "xml parse error %s"
+msgstr ""

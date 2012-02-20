@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Extui\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-16 18:25+0100\n"
+"PO-Revision-Date: 2012-01-09 18:20+0100\n"
+"Last-Translator: Anakeen <dev@anakeen.com>\n"
+"Language-Team: French <distrib@anakeen.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "(.*)\\"
+msgstr ""
+
+msgid "Ext ui api"
+msgstr ""
+
+msgid "Ext user interface api"
+msgstr ""
+
+msgid "eui:Abstract display"
+msgstr "Résumé"
+
+msgid "eui:Cancel deletion"
+msgstr "Annuler la suppression"
+
+msgid "eui:Cancel locking"
+msgstr "Annuler le verrouillage"
+
+msgid "eui:Cancel remove"
+msgstr "Annuler"
+
+msgid "eui:Create a search"
+msgstr "Créer une recherche"
+
+msgid "eui:Delete"
+msgstr "Supprimer"
+
+msgid "eui:Display"
+msgstr "Affichage"
+
+msgid "eui:Document Selection"
+msgstr "Sélection"
+
+msgid "eui:Duplicate document"
+msgstr "Dupliquer"
+
+msgid "eui:Edit document"
+msgstr "Modifier"
+
+msgid "eui:Export all documents"
+msgstr "Exporter le contenu du dossier"
+
+msgid "eui:Export selected documents"
+msgstr "Exporter les documents sélectionnés"
+
+msgid "eui:Grid display"
+msgstr "Grille"
+
+msgid "eui:Historic"
+msgstr "Historique"
+
+msgid "eui:Icon display"
+msgstr "Icones"
+
+msgid "eui:Lock"
+msgstr "Verrouiller"
+
+msgid "eui:Lock selected documents"
+msgstr "Verrouiller les documents sélectionnés"
+
+msgid "eui:Lock selection"
+msgstr "Verrouiller la sélection"
+
+msgid "eui:Remove from folder"
+msgstr "Retirer du dossier"
+
+msgid "eui:Rss Link"
+msgstr "Lien RSS"
+
+msgid "eui:Selection"
+msgstr "Sélection"
+
+msgid "eui:Send Mail"
+msgstr "Envoyer un mail"
+
+msgid "eui:Sure delete ?"
+msgstr "Etes vous sûr de vouloir supprimer ?"
+
+msgid "eui:Sure lock selected document ?"
+msgstr "Etes vous sûr de verrouiller les documents sélectionnés ?"
+
+msgid "eui:Sure remove from folder ?"
+msgstr "Etes vous sûr de vouloir enlever le document du dossier ?"
+
+msgid "eui:Tools"
+msgstr "Outils"
+
+msgid "eui:Tree display"
+msgstr "Arbre"
+
+msgid "eui:Unlock"
+msgstr "Déverrouiller"
+
+msgid "eui:View Document"
+msgstr "Voir"
+
+msgid "eui:View Properties"
+msgstr "Propriétés"
+
+msgid "eui:View print version"
+msgstr "Version imprimable"
+
+msgid "eui:itemlistmenu tag not found"
+msgstr "itemlistmenu tag non trouvé"
+
+msgid "eui:no id in itemlistmenu"
+msgstr "Pas d'identifiant dans itemlistmenu"
+
+msgid "eui:no itemmenu tags found"
+msgstr "Aucun tag itemmenu trouvé"
+
+msgid "xml menu parsing"
+msgstr ""
+
+#, c-format
+msgid "xml parse error %s"
+msgstr ""
