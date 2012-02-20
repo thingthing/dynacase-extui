@@ -1,0 +1,18 @@
+PACKAGE = @PACKAGE@
+VERSION = @VERSION@
+utildir=@PUBRULE@
+pubdir = @prefix@
+srcdir = @srcdir@
+libdir = $(pubdir)/lib
+appname = @APPNAME@
+export pubdir utildir utildir libdir appname
+
+TAR = tar
+GZIP_ENV = --best
+
+SUBDIR = App Action Zone Images
+
+pages_not_xml = info.xml
+pages_not_php = fam2po.php po2js.php
+
+include $(utildir)/PubRule
