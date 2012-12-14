@@ -1307,7 +1307,7 @@ Ext.fdl.GridCollection = Ext.extend(Ext.grid.GridPanel, {
     resetVolatileFilter : function() {
         this.volatilefilter = new Fdl.DocumentFilter();
         this.volatilefilter.criteria = [];
-    }
+    },
 
     restrictColumns: null,
 
