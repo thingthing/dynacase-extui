@@ -1458,7 +1458,7 @@ Ext.fdl.SubDocument = Ext.extend(Ext.form.FormPanel, {
                 for (var i = 0; i < elements.length; i++) {
                 
                     // Transform docid into links
-                    if (elements[i].type == 'docid') {
+                    if (elements[i].type == 'docid' || elements[i].type == 'account') {
                         for (var j = 0; j < values.length; j++) {
                         
                             if (values[j][elements[i].id]) {
@@ -1552,7 +1552,7 @@ Ext.fdl.SubDocument = Ext.extend(Ext.form.FormPanel, {
                 //console.log('Attribute not represented : ' + attr.type);
                 return null;
                 break;
-                
+            case 'account':
             case 'docid':
                 
                 if (this.document.getValue(attr.id) || display) {
@@ -2095,7 +2095,8 @@ Ext.fdl.SubDocument = Ext.extend(Ext.form.FormPanel, {
                                         var width = 120;
                                     }
                                     break;
-                                    
+
+                                case 'account':
                                 case 'docid':
                                     var width = 200;
                                     break;
@@ -2201,7 +2202,8 @@ Ext.fdl.SubDocument = Ext.extend(Ext.form.FormPanel, {
 //                    
 //                }
                 break;
-                
+
+            case 'account':
             case 'docid':
                 
                 if (attr.getOption('multiple') == 'yes') {
