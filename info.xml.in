@@ -4,6 +4,7 @@
 	<requires>
 		<installer version="1.1.5" comp="ge"/>
 		<module name="dynacase-extjs-installer"/>
+        <module name="dynacase-datajs" version="3.2.5" comp="ge"/>
 	</requires>
 
 	<post-install>
