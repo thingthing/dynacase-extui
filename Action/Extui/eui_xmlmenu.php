@@ -16,7 +16,7 @@
 /**
  */
 
-include_once ("FDL/Class.Doc.php");
+include_once "FDL/Class.Doc.php";
 /**
  * Display info before download
  * @param Action &$action current action
@@ -24,7 +24,7 @@ include_once ("FDL/Class.Doc.php");
  * @global collectionId Http var : id collection where is actually the document (the context)
  * @global menuxml Http var : the xml menu file APP:file.xml
  */
-function eui_xmlmenu(&$action)
+function eui_xmlmenu(Action & $action)
 {
     $docid = getHttpVars("id");
     $menuxml = getHttpVars("menuxml", "EXTUI:default-context-menu.xml");
@@ -52,7 +52,7 @@ function eui_getxmlmenu($docid, $menuxml, $folderid = 0)
                 $folder = new_doc($dbaccess, $folderid, true);
                 if (!$folder->isAlive()) $folder = null;
             } else $folder = null;
-            
+
             if ($doc) {
                 $lay->set("TITLE", str_replace('&', '&amp;', $doc->getTitle()));
                 $lay->set("ICON", str_replace('&', '&amp;', $doc->getIcon()));
@@ -101,7 +101,6 @@ function eui_getxmlmenu($docid, $menuxml, $folderid = 0)
                                         "backgroundColor" => current($v->backgroundColor)
                                     );
                                 } else {
-                                    
                                     $idm = current($v->attributes()->id);
                                     $imenu[$idm] = parseItemMenu($v, $doc, $folder);
                                 }
@@ -122,7 +121,7 @@ function eui_getxmlmenu($docid, $menuxml, $folderid = 0)
     return $out;
 }
 
-function parseItemMenu($im, &$doc = null, &$folder = null)
+function parseItemMenu($im, & $doc = null, &$folder = null)
 {
     $control = $im->control;
     $visibility = @current($im->attributes()->visibility);
@@ -136,7 +135,6 @@ function parseItemMenu($im, &$doc = null, &$folder = null)
                 $privilege = @current($actrl->attributes()->privilege);
                 $object = @current($actrl->attributes()->object);
                 if ($privilege) {
-                    
                     if ($object == "folder" && $folder) {
                         if (in_array($privilege, $folder->acls)) {
                             $err = $folder->control($privilege);
@@ -166,14 +164,14 @@ function parseItemMenu($im, &$doc = null, &$folder = null)
                             if ($doc) $isok = $doc->applyMethod('::' . $method, null);
                             else $visibility = POPUP_INACTIVE;
                         }
-                        
+
                         if (($isok !== null) && ($not xor $isok)) $visibility = $avis;
                     }
                 }
             }
         }
     }
-    
+
     $url = $im->url ? (($doc) ? $doc->urlwhatEncode(@current($im->url->attributes()->href)) : @current($im->url->attributes()->href)) : false;
     if (!$url && $doc) {
         $url = $doc->applyMethod(@current($im->url->attributes()->method) , null);
@@ -202,4 +200,3 @@ function parseItemMenu($im, &$doc = null, &$folder = null)
         ) : false
     );
 }
-?>

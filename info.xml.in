@@ -1,22 +1,23 @@
 <?xml version = "1.0"?>
 <module name="@PACKAGE@" version="@VERSION@" release="@RELEASE@" license="@LICENSE@">
 
-	<requires>
-		<installer version="1.1.5" comp="ge"/>
-		<module name="dynacase-extjs-installer"/>
+    <requires>
+        <installer version="1.1.5" comp="ge"/>
+        <module name="dynacase-extjs-installer"/>
+        <module name="dynacase-core" version="3.2.5" comp="ge"/>
         <module name="dynacase-datajs" version="3.2.5" comp="ge"/>
-	</requires>
+    </requires>
 
-	<post-install>
-		<process command="programs/record_application EXTUI I"/>
-		<process command="programs/update_catalog" />
-	</post-install>
+    <post-install>
+        <process command="programs/record_application EXTUI I"/>
+        <process command="programs/update_catalog" />
+    </post-install>
 
-	<post-upgrade>
-		<process command="programs/pre_migration EXTUI"/>
-		<process command="programs/record_application EXTUI U"/>
-		<process command="programs/post_migration EXTUI"/>
-		<process command="programs/update_catalog" />
-	</post-upgrade>
+    <post-upgrade>
+        <process command="programs/pre_migration EXTUI"/>
+        <process command="programs/record_application EXTUI U"/>
+        <process command="programs/post_migration EXTUI"/>
+        <process command="programs/update_catalog" />
+    </post-upgrade>
 
 </module>

@@ -21,23 +21,21 @@
 // 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 // ---------------------------------------------------------------
 
-$app_desc = array (
-		   "name"	 =>"EXTUI",		//Name
-		   "short_name"	=>N_("Ext ui api"),    	//Short name
-		   "description"=>N_("Ext user interface api"),  //long description
-		   "access_free"=>"Y",			//Access free ? (Y,N)
-		   "icon"	=>"extuiapi.png",	//Icon
-		   "displayable"=>"N",			//Should be displayed on an app list (Y,N)
-		   "with_frame"	=>"Y",			//Use multiframe ? (Y,N)
-		   "childof"	=>""		        // instance of 
-		   );
-
-  
+$app_desc = array(
+    "name" => "EXTUI", //Name
+    "short_name" => N_("Ext ui api"), //Short name
+    "description" => N_("Ext user interface api"), //long description
+    "access_free" => "Y", //Access free ? (Y,N)
+    "icon" => "extuiapi.png", //Icon
+    "displayable" => "N", //Should be displayed on an app list (Y,N)
+    "with_frame" => "Y", //Use multiframe ? (Y,N)
+    "childof" => "" // instance of
+);
 
 
-$action_desc = array (
-                      array( 
-                            "name"              =>"EUI_XMLMENU",
-                            "short_name"        =>N_("xml menu parsing"))
-		      );
+$action_desc = array(
+    array(
+        "name" => "EUI_XMLMENU",
+        "short_name" => N_("xml menu parsing"))
+);
 ?>
